@@ -15,6 +15,8 @@
 		3B57CA551CAD02B20042AA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B57CA531CAD02B20042AA20 /* LaunchScreen.storyboard */; };
 		3B57CA601CAD02B20042AA20 /* PoemShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CA5F1CAD02B20042AA20 /* PoemShowTests.swift */; };
 		3B57CA6B1CAD02B20042AA20 /* PoemShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CA6A1CAD02B20042AA20 /* PoemShowUITests.swift */; };
+		3B57CA7B1CAD03AA0042AA20 /* PoemShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CA7A1CAD03AA0042AA20 /* PoemShow.swift */; };
+		3BC3EF5D1CB016740048FAD1 /* HUAKANG.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3EF5C1CB016740048FAD1 /* HUAKANG.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		3B57CA661CAD02B20042AA20 /* PoemShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B57CA6A1CAD02B20042AA20 /* PoemShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemShowUITests.swift; sourceTree = "<group>"; };
 		3B57CA6C1CAD02B20042AA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B57CA7A1CAD03AA0042AA20 /* PoemShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoemShow.swift; sourceTree = "<group>"; };
+		3BC3EF5C1CB016740048FAD1 /* HUAKANG.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HUAKANG.ttf; sourceTree = "<group>"; };
+		3BC3EF5F1CB01EF40048FAD1 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		3BC3EF601CB02AF20048FAD1 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		3B57CA461CAD02B20042AA20 /* PoemShow */ = {
 			isa = PBXGroup;
 			children = (
+				3BC3EF591CB015E60048FAD1 /* Font */,
 				3B57CA471CAD02B20042AA20 /* AppDelegate.swift */,
 				3B57CA491CAD02B20042AA20 /* ViewController.swift */,
 				3B57CA4B1CAD02B20042AA20 /* Main.storyboard */,
@@ -106,6 +113,7 @@
 				3B57CA531CAD02B20042AA20 /* LaunchScreen.storyboard */,
 				3B57CA561CAD02B20042AA20 /* Info.plist */,
 				3B57CA4E1CAD02B20042AA20 /* PoemShow.xcdatamodeld */,
+				3B57CA7A1CAD03AA0042AA20 /* PoemShow.swift */,
 			);
 			path = PoemShow;
 			sourceTree = "<group>";
@@ -126,6 +134,16 @@
 				3B57CA6C1CAD02B20042AA20 /* Info.plist */,
 			);
 			path = PoemShowUITests;
+			sourceTree = "<group>";
+		};
+		3BC3EF591CB015E60048FAD1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3BC3EF5C1CB016740048FAD1 /* HUAKANG.ttf */,
+				3BC3EF601CB02AF20048FAD1 /* MFZhiHei_Noncommercial-Regular.ttf */,
+				3BC3EF5F1CB01EF40048FAD1 /* MFTongXin_Noncommercial-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +252,7 @@
 			files = (
 				3B57CA551CAD02B20042AA20 /* LaunchScreen.storyboard in Resources */,
 				3B57CA521CAD02B20042AA20 /* Assets.xcassets in Resources */,
+				3BC3EF5D1CB016740048FAD1 /* HUAKANG.ttf in Resources */,
 				3B57CA4D1CAD02B20042AA20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +280,7 @@
 			files = (
 				3B57CA4A1CAD02B20042AA20 /* ViewController.swift in Sources */,
 				3B57CA501CAD02B20042AA20 /* PoemShow.xcdatamodeld in Sources */,
+				3B57CA7B1CAD03AA0042AA20 /* PoemShow.swift in Sources */,
 				3B57CA481CAD02B20042AA20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +508,7 @@
 				3B57CA711CAD02B20042AA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B57CA721CAD02B20042AA20 /* Build configuration list for PBXNativeTarget "PoemShowTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				3B57CA741CAD02B20042AA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B57CA751CAD02B20042AA20 /* Build configuration list for PBXNativeTarget "PoemShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				3B57CA771CAD02B20042AA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

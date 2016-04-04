@@ -43,5 +43,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<array>
+		<string></string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>HUAKANG.ttf</string>
+		<string>MFTongXin_Noncommercial-Regular.ttf</string>
+		<string>MFZhiHei_Noncommercial-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
