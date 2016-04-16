@@ -108,12 +108,12 @@
 				3BC3EF591CB015E60048FAD1 /* Font */,
 				3B57CA471CAD02B20042AA20 /* AppDelegate.swift */,
 				3B57CA491CAD02B20042AA20 /* ViewController.swift */,
+				3B57CA7A1CAD03AA0042AA20 /* PoemShow.swift */,
 				3B57CA4B1CAD02B20042AA20 /* Main.storyboard */,
 				3B57CA511CAD02B20042AA20 /* Assets.xcassets */,
 				3B57CA531CAD02B20042AA20 /* LaunchScreen.storyboard */,
 				3B57CA561CAD02B20042AA20 /* Info.plist */,
 				3B57CA4E1CAD02B20042AA20 /* PoemShow.xcdatamodeld */,
-				3B57CA7A1CAD03AA0042AA20 /* PoemShow.swift */,
 			);
 			path = PoemShow;
 			sourceTree = "<group>";

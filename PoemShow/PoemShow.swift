@@ -6,9 +6,8 @@
 //  Copyright © 2016年 Lois_pan. All rights reserved.
 //
 
+//显示字体动画的view
 import UIKit
-
-
 
 
 public class PoemShow: UIView {
